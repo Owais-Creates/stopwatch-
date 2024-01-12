@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    color: silver;
+}
+
+.digit{
+    font-size: 10rem;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 80px;
+}
+
+.btn{
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 15px 30px ;
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.start{
+    background-color: green;
+    cursor: pointer;
+} 
+
+.stop{
+    background-color: red;
+    cursor: pointer;
+}  
+
+.restart{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
